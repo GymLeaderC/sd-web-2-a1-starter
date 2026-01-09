@@ -8,9 +8,9 @@ This project is designed to help you verify your development environment and ref
 
 This is a summary of the main tasks you need to complete.
 
-- [ ] **Part 1: Environment**
-  - [ ] Verify Node.js is installed correctly.
-  - [ ] Capture a screenshot of the `node` prompt with your name.
+- [COMPLETE] **Part 1: Environment**
+  - [COMPLETE] Verify Node.js is installed correctly.
+  - [COMPLETE] Capture a screenshot of the `node` prompt with your name.
 - [ ] **Part 2: The Project**
   - [ ] Download a zip folder of this repository (or fork) from github and initialize a new repo with it. When this is complete, you should be able to edit the code in your editor and then push it to github
   - [ ] Create a `.gitignore` file.
