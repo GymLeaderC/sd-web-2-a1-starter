@@ -1,0 +1,57 @@
+# Week 1 Assignment - Development Setup & Bug Hunt
+
+This project is designed to help you verify your development environment and refresh your HTML, CSS, and JavaScript debugging skills.
+
+---
+
+## Assignment Checklist
+
+This is a summary of the main tasks you need to complete.
+
+- [COMPLETE] **Part 1: Environment**
+  - [COMPLETE] Verify Node.js is installed correctly.
+  - [COMPLETE] Capture a screenshot of the `node` prompt with your name.
+- [COMPLETE] **Part 2: The Project**
+  - [COMPLETE] Download a zip folder of this repository (or fork) from github and initialize a new repo with it. When this is complete, you should be able to edit the code in your editor and then push it to github
+  - [COMPLETE] Create a `.gitignore` file.
+  - [COMPLETE] Create a folder for static assets (e.g., `public/` or `assets/`)
+  - [COMPLETE] Add your Node.js screenshot to the asset folder.
+  - [COMPLETE] Fix all bugs in the HTML, CSS, and JavaScript files.
+  - [COMPLETE] Implement the tasks in the script.js file to the best of your ability using Javascript conventions
+- [COMPLETE] **Part 3: Submission**
+  - [COMPLETE] Make at least two meaningful Git commits and push them to GitHub.
+  - [COMPLETE] Deploy your fixed website using GitHub Pages.
+  - [COMPLETE] Submit your repository and live GitHub Pages links to Brightspace.
+
+---
+
+## Hints for the Bug Hunt
+
+Look for common errors across all files. There are issues with syntax, logic, and best practices.
+
+- **HTML (`index.html`)**:
+  - Replace generic `<div>` containers with appropriate semantic HTML elements like `<header>`, `<main>`, `<section>`, `<article>`, `<nav>`, and `<footer>`.
+  - Ensure proper heading hierarchy (h1 should be the main heading, h2 for subheadings, h3 for sub-subheadings, etc.).
+  - Are all tags properly closed and nested correctly?
+  - Use the [W3C validator](https://validator.w3.org/) to find syntax errors.
+- **CSS (`main.css`)**:
+  - Check for simple typos in property names or selectors.
+  - Test the site on different screen sizes using your browser's developer tools. Is it responsive?
+  - Use your browser's inspector to check for accessibility issues, like poor color contrast.
+- **JavaScript (`index.js`)**:
+  - **Always check the browser console first!** It will tell you where the errors are.
+  - Look for syntax errors like missing commas, brackets, or parentheses.
+  - Verify that the IDs used in `getElementById()` match the IDs in your `index.html` file exactly.
+
+---
+
+## Learning Objectives
+
+By completing this assignment, you will practice:
+
+- Verifying a Node.js development environment.
+- Implementing semantic HTML for better structure and accessibility.
+- Debugging common HTML, CSS, and JavaScript errors.
+- Reinforce familarity with foundational Git Practices
+- Organizing a project with a dedicated asset folder.
+- Deploying a static website to GitHub Pages.
